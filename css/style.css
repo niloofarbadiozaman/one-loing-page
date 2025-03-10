@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:poppins ;
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/poppins-bold-webfont.woff') format(woff);
+}
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/poppins-light-webfont.woff') format(woff);
+}
+
+body{
+    color: #fff;
+    font-family: sans-serif,poppins;
+    width: 100%;
+    height: 100vh;
+    background: url('/img/96490-northern_hardwood_forest-autumn-wood-woody_plant-grove-2560x1440.jpg') no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+ width: 330px;
+ height: 360px;
+ background: linear-gradient(#ffffff34,#ffffff27);
+ backdrop-filter: blur(7px);
+ border: 1px solid #ffffff83;
+ box-shadow: 0 8px 32px #0000008a;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+form h1{
+    margin-bottom: 10px;
+}
+ 
+.username{
+    width: 250px;
+    height: 40px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #ffffffac;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.password{
+    width: 250px;
+    height: 40px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #ffffffac;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+input::placeholder{
+    color: #fdfdfdb9;
+    font-size: 0.8rem;
+    letter-spacing:0.3px ;
+}
+
+button{
+    border: none;
+    font-size: 0.8rem;
+    padding: 10px 105px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+.mypw{
+    width: 250px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register span{
+    font-size: 0.8rem;
+}
+
+
+a{
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.first{
+    position: relative;
+}
+    
+.pic{
+    width: 24px;
+    position: absolute;
+    bottom: 28px;
+    right: 10px;
+}
+.second{
+    position: relative;
+}
+.modal{
+    background-color: rgb(146, 0, 51);
+    color: #fff;
+    padding: 30px;
+    display: none;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    z-index: 999;
+    right: 10px;
+    top: 10px;
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+}

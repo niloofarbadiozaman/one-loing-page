@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+    <form>
+        <h1>Login</h1>
+        <div class="first">
+            <input type="text" placeholder="username" class="username" />
+            <img src="/img/user-svgrepo-com.svg" alt="" class="pic"><br><br>
+        </div>
+        <div class="second">
+            <input type="password" placeholder="password" class="password" />
+            <img src="/img/lock-password-svgrepo-com.svg" alt="" class="pic"><br><br>
+        </div>
+        <div class="mypw">
+            <div>
+                <input type="checkbox" name="remmber" value="remmber">
+                <label for="remmber">Remmber me</label>
+            </div>
+            <a href="#">forget Password?</a>
+        </div>
+        <button onclick="dataValidation()">login</button>
+        <div class="register">
+            <span>Do'nt have an account ?</span>
+            <a href="#">Register</a>
+        </div>
+    </form>
+
+    <div class="modal">
+        لطفا اطلاعات را به درستی وارد کنید
+    </div>
+
+    <script src="/js/script.js"></script>
+    
+</body>
+
+</html>
